@@ -145,10 +145,26 @@ body {
   }
 }
 
+.banner-main-border-button a {
+  font-size: 18px;
+  color: #FFF;
+  border: 1px solid #414141;
+  padding: 7px 8px;
+  display: inline-block;
+  font-weight: 500;
+  transition: all .3s;
+  background-color: #333;
+}
+
+.banner-main-border-button a:hover {
+  background-color: #fff;
+  color: #2a2a2a;
+}
+
 .main-border-button a {
   font-size: 13px;
-  color: #fff;
-  border: 1px solid #fff;
+  color: #414141;
+  border: 1px solid #414141;
   padding: 12px 25px;
   display: inline-block;
   font-weight: 500;
@@ -669,18 +685,18 @@ banner
 }
 
 .main-banner .left-content .inner-content h4 {
-  color: #fff;
+  color: #414141;
   margin-top: -10px;
-  font-size: 52px;
-  font-weight: 700;
+  font-size: 80px;
+  font-weight: 1000;
   margin-bottom: 20px;
 }
 
 .main-banner .left-content .inner-content span {
-  font-size: 16px;
-  color: #fff;
-  font-weight: 400;
-  font-style: italic;
+  text-transform: uppercase;
+  font-size: 32px;
+  color: #000;
+  font-weight: 700;
   display: block;
   margin-bottom: 30px;
 }
@@ -708,7 +724,7 @@ banner
 }
 
 .main-banner .right-content .right-first-image .thumb .inner-content h4 {
-  color: #fff;
+  color: #414141;
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 15px;
@@ -716,7 +732,7 @@ banner
 
 .main-banner .right-content .right-first-image .thumb .inner-content span {
   font-size: 16px;
-  color: #fff;
+  color: #000;
   font-style: italic;
 }
 
