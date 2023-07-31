@@ -163,8 +163,8 @@ body {
 
 .main-border-button a {
   font-size: 13px;
-  color: #414141;
-  border: 1px solid #414141;
+  color: #fff;
+  border: 1px solid #fff;
   padding: 12px 25px;
   display: inline-block;
   font-weight: 500;
@@ -432,7 +432,7 @@ header
 
 .background-header .main-nav .menu-trigger {
   top: 23px;
-}
+} 
 
 .header-area .main-nav .menu-trigger span,
 .header-area .main-nav .menu-trigger span:before,
@@ -693,7 +693,6 @@ banner
 }
 
 .main-banner .left-content .inner-content span {
-  text-transform: uppercase;
   font-size: 32px;
   color: #000;
   font-weight: 700;
@@ -1315,8 +1314,8 @@ Explore
 }
 
 #explore .left-content .main-border-button a {
-  color: #2a2a2a;
-  border-color: #2a2a2a;
+  color: #fff;
+  border-color: #fff;
   margin-top: 35px;
 }
 
@@ -2299,6 +2298,22 @@ responsive
     top: 47.5%;
     transform: translate(-50%,-50%);
     text-align: center;
+  }
+  .main-banner .left-content .inner-content h4 {
+    color: #414141;
+    margin-top: -10px;
+    font-size: 52px;
+    font-weight: 700;	
+    margin-bottom: 20px;
+  }
+  
+  .main-banner .left-content .inner-content span {
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+    font-style: italic;
+    display: block;
+    margin-bottom: 30px;
   }
   .subscribe form button {
     width: 100%;
